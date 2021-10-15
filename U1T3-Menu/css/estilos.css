@@ -1,0 +1,71 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(169, 169, 169, 0.473);
+}
+
+.padre{
+    display: flex;
+    height:100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.caja{
+    display: flex;
+    width: 350px;
+    height: 70px;
+    margin: auto;
+    background-color:white;
+}
+
+
+.icono{
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icono img{
+    width: 50%;
+}
+
+.descripcion{
+    margin-top: 8px;
+    margin-left: 5px;
+
+    font-size: 13px;
+}
+
+.titulo{
+    font-size: 17px;
+    font-weight: bold;
+    margin: auto;
+    color: darkgray;
+}
+
+
+.caja-foto{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    margin: auto;
+    background-color:white;
+
+    align-items:flex-end;
+}
+
+.foto img{
+    margin: auto;
+    display: block;
+    width: 23%;
+}
+
+
+.nombre{
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 8px;
+}
